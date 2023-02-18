@@ -12,11 +12,11 @@ Idea of strategy is to capitalise on the inverse relationship between futures A 
 
 ## Coding Implementation overview:
 
-- The class 'strategy' implements the trading strategy to output a set of 'buying conditions'. We then get the indicies where we would like to enter and exit our positions
+- The class 'strategy' implements the trading strategy to output a set of 'buying conditions'. We then get the indicies where we would like to enter and exit our positions.
 
 - The class 'portfolio' implements takes the indicies that have been generated and uses this information to buy and sell futures A and also generate results from this strategy.
 
 ### Notes
-- We generate realised pnl. We may look to change our model in the future to model unrealsied pnl
+- We generate realised pnl. We may look to change our model in the future to model unrealised pnl.
 
-- We use one degree of freedom when computing the standard deviation since we are sampling from a larger unknown distribution
+- We use one degree of freedom when computing the standard deviation since we are sampling from a larger unknown distribution.
